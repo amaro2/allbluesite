@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+  /*background: url(fundo2.jpg);*/
+  background-size: cover;
+  background-position: left;
+  font-family: sans-serif;
+  background: #cceeff;
+}
+
+.cadastrobox {
+  margin-top: 100px;
+  width: 320px;
+  height: 600px;
+  background: #b3e6ff;
+  color: #4d88ff;
+  top: 39%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 80px 30px;
+  border-radius: 5%;
+}
+
+.cadastrouser {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+}
+
+h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.cadastrobox p {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+.cadastrobox input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.cadastrobox input[type="text"], input[type="password"], input[type="date"], input[type="email"]
+{
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 30px;
+  color: #333333;
+  font-size: 14px;
+}
+
+.cadastrobox input[type="submit"], input[type="button"]
+{
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #4d88ff;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.cadastrobox input[type="submit"]:hover
+{
+  cursor: pointer;
+  background: #ffc107;
+  color: #000;
+}
+
+.cadastrobox a {
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 20px;
+  color: darkgrey;
+  padding: 10px;
+  margin: 10px;
+}
+
+.cadastrobox a:hover {
+  color: #4d88ff;
+}
